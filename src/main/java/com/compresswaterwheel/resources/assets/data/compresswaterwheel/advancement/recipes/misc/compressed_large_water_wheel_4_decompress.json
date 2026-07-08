@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compresswaterwheel_compressed_large_water_wheel_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compresswaterwheel:compressed_large_water_wheel_4"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "compresswaterwheel:compressed_large_water_wheel_4_decompress"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compresswaterwheel_compressed_large_water_wheel_4"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "compresswaterwheel:compressed_large_water_wheel_4_decompress"
+    ]
+  }
+}

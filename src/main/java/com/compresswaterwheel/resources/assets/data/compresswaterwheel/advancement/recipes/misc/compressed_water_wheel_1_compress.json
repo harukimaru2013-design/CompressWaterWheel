@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_create_water_wheel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "create:water_wheel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "compresswaterwheel:compressed_water_wheel_1_compress"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_create_water_wheel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "compresswaterwheel:compressed_water_wheel_1_compress"
+    ]
+  }
+}
