@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "compresswaterwheel:compressed_large_water_wheel_5"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "compresswaterwheel:blocks/compressed_large_water_wheel_5"
+}
